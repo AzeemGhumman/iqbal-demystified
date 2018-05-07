@@ -1,0 +1,473 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vanity.iqbal.activities.ActivitySearch"
+    tools:ignore="MergeRootFrame" >
+    
+
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@color/sky_blue" >
+        
+             <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+            <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/RadioTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Title" />
+
+        <RadioButton
+            android:id="@+id/RadioTitleAndText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title + Text" />
+
+    </RadioGroup>
+             
+             </LinearLayout>
+         
+        <EditText
+            android:id="@+id/TxtSearchUrdu"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center" >
+
+             <requestFocus />
+         </EditText>
+         
+        </LinearLayout>
+               
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+
+         <Button
+            android:id="@+id/A_BACK"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#FFA500"
+            android:text="->" />
+
+         
+         
+          <Button
+            android:id="@+id/A_KH"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="خ" />
+         
+         <Button
+            android:id="@+id/A_H"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ح" />
+         
+         <Button
+            android:id="@+id/A_CH"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="چ" />
+         
+         <Button
+            android:id="@+id/A_J"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ج" />
+         
+          <Button
+            android:id="@+id/A_SEY"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ث" />
+         
+         <Button
+            android:id="@+id/A_TAY"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ٹ" />
+         
+         <Button
+            android:id="@+id/A_TY"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ت" />
+         
+         <Button
+            android:id="@+id/A_P"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="پ" />
+         
+         <Button
+            android:id="@+id/A_B"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ب" />
+         
+         <Button
+            android:id="@+id/A_AAA"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ا" />
+         
+          <Button
+            android:id="@+id/A_A"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="آ" />
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:weightSum="12" >
+
+
+         <Button
+            android:id="@+id/A_ZUAD"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ض" />
+         
+          <Button
+            android:id="@+id/A_SUAD"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ص" />
+         
+         <Button
+            android:id="@+id/A_SHEEN"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ش" />
+         
+         <Button
+            android:id="@+id/A_SEEN"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="س" />
+         
+         <Button
+            android:id="@+id/A_SAAL"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ژ" />
+         
+          <Button
+            android:id="@+id/A_ZAAL"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ز" />
+         
+         <Button
+            android:id="@+id/A_RREY"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ڑ" />
+         
+         <Button
+            android:id="@+id/A_RAY"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ر" />
+         
+         <Button
+            android:id="@+id/A_ZAA"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ذ" />
+         
+         <Button
+            android:id="@+id/A_DDAA"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ڈ" />
+         
+         <Button
+            android:id="@+id/A_DAA"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="د" />
+        
+         
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+
+         <Button
+            android:id="@+id/A_GAAN"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ں" />
+         
+          <Button
+            android:id="@+id/A_N"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ن" />
+         
+         <Button
+            android:id="@+id/A_M"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="م" />
+         
+         <Button
+            android:id="@+id/A_L"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ل" />
+         
+         <Button
+            android:id="@+id/A_G"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="گ" />
+         
+          <Button
+            android:id="@+id/A_KAAF"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ک" />
+         
+         <Button
+            android:id="@+id/A_KUAF"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ق" />
+         
+         <Button
+            android:id="@+id/A_F"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ف" />
+         
+         <Button
+            android:id="@+id/A_GAIN"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="غ" />
+         
+         <Button
+            android:id="@+id/A_AYIN"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ع" />
+         
+         <Button
+            android:id="@+id/A_ZUAA"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ظ" />
+         
+          <Button
+            android:id="@+id/A_TUAA"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ط" />
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="11" >
+
+
+         <Button
+            android:id="@+id/A_CLEAR"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#CD3333"
+            android:text="clear" />
+         
+          <Button
+            android:id="@+id/A_BARI_YE"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ے" />
+         
+         <Button
+            android:id="@+id/A_CHOTI_YE"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ی" />
+         
+         <Button
+            android:id="@+id/A_HAMZA"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ء" />
+         
+         <Button
+            android:id="@+id/A_SPACE"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:text="   " />
+         
+          <Button
+            android:id="@+id/A_HEYKIBANI"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ھ" />
+         
+         <Button
+            android:id="@+id/A_GOL_HA"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="ہ" />
+         
+         <Button
+            android:id="@+id/A_WOW"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="و" />
+         
+         <Button
+            android:id="@+id/A_SEARCH"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#99CC32"
+            android:text="search" />
+        
+         
+    </LinearLayout>
+
+    
+    </LinearLayout>
+
+         
+    
+</FrameLayout>
+

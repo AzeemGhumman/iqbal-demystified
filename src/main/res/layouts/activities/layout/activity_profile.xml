@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vanity.iqbal.ProfilePage"
+    tools:ignore="MergeRootFrame" >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical" >
+
+       <TextView
+           android:id="@+id/TxtSignOut"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="right"
+           android:paddingRight="10dp"
+           android:paddingTop="10dp"
+           android:text="Sign Out" />
+
+       <TextView
+           android:id="@+id/TxtMsg"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="TextView"
+           android:layout_gravity="center"
+           android:textSize="30dp" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Now you can write comments!\nYou can also vote to others&apos; comments!\nMore profile features coming soon!"
+           android:gravity="center"
+               android:textColor="#00AA00" />
+       
+       <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/BtnNavigateToAudioDownloads"
+               style="@style/DefaultButtonText"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_gravity="center"
+               android:layout_margin="5dp"
+               android:background="@drawable/btn_big"
+               android:layout_weight="1"
+               android:text="My Downloads" />
+
+           <Button
+               android:id="@+id/BtnChangePassword"
+               style="@style/DefaultButtonText"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_gravity="center"
+               android:layout_margin="5dp"
+               android:background="@drawable/btn_big"
+               android:layout_weight="1"
+               android:text="Change Password" />
+       
+       </LinearLayout>
+
+       <fragment
+           android:name="com.vanity.iqbal.fragments.FragmentLeaderboard"
+           android:id="@+id/fragmentLeaderboard"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+
+   </LinearLayout>
+    
+</FrameLayout>
+

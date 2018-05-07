@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/BtnBook_Urdu_Bal_Ae_Jabreel_2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/book_bal_ae_jabreel_urdu_2" />
+
+        <ImageView
+            android:id="@+id/BtnBook_Urdu_Bang_Ae_Dara_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/book_bang_ae_dara_urdu_1" />
+    
+    </LinearLayout>
+    
+    
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="20dp" >
+    
+     
+     </LinearLayout>
+    
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+         <ImageView
+             android:id="@+id/BtnBook_Urdu_Armaghan_Ae_Hijaz_4"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:src="@drawable/book_armaghan_ae_hijaz_urdu_4" />
+
+         <ImageView
+             android:id="@+id/BtnBook_Urdu_Zarb_Ae_Kaleem_3"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:src="@drawable/book_zarb_ae_kaleem_urdu_3" />
+
+    
+    	</LinearLayout>
+    
+</LinearLayout>

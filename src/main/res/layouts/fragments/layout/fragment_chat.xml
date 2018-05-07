@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+	<LinearLayout
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+		<LinearLayout
+    	 android:id="@+id/LayoutComments"
+    	 android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:orientation="vertical"  >
+    
+			<ListView
+			android:id="@+id/listComments"
+			android:layout_width="fill_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:divider="@null"
+			android:dividerHeight="0dp"
+			android:cacheColorHint="#00000000" >
+			</ListView>
+
+        </LinearLayout>
+
+    	<LinearLayout 
+    	 android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:background="@drawable/comment_edit_text_bg">
+            
+			<EditText
+				android:id="@+id/TxtComment"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:hint="Write your comment here"
+				 />
+
+			<ImageView
+				android:id="@+id/BtnComment"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginRight="10dp"
+				android:src="@drawable/upload_comment" />
+
+
+			<ImageView
+				android:id="@+id/BtnShare"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:src="@drawable/share" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+        
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/BtnBook_Persian_Pas_Cheh_Bayad_Kard_10"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/book_pas_cheh_bayad_kard_persian_10" />
+
+        <ImageView
+            android:id="@+id/BtnBook_Persian_Rumuz_Ae_Bekhudi_6"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/book_rumuz_ae_bekhudi_persian_6" />
+    
+    
+    </LinearLayout>
+    
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="20dp" >
+    
+     
+     </LinearLayout>
+    
+    
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+
+         <ImageView
+             android:id="@+id/BtnBook_Persian_Zabur_Ae_Ajam_8"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:src="@drawable/book_zabur_ae_ajam_persian_8" />
+        
+        
+        <ImageView
+        android:id="@+id/BtnBookP_placeholder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+         
+    
+    	</LinearLayout>
+    
+
+    
+     
+    
+</LinearLayout>

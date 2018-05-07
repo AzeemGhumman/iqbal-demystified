@@ -1,0 +1,422 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vanity.iqbal.activities.ActivitySettings"
+    tools:ignore="MergeRootFrame" >
+    
+    
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white" >
+        
+        <TextView
+            android:id="@+id/tv_info_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Font"
+            android:paddingTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_info_heading" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_Fonts"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+
+        </RadioGroup>
+        
+        <TextView
+            android:id="@+id/tv_info_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#CC0000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Warning: Fonts may not show up properly on some Android Devices." />
+
+        <TextView
+            android:id="@+id/TxtUrduOrRoman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Text Type"
+            android:paddingTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_info_heading" />
+        
+        <RadioGroup
+        android:id="@+id/radioTypeOfText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <RadioButton
+                 android:id="@+id/radioUrdu"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Urdu"
+                 android:checked="true" />
+        
+        <RadioButton
+                 android:id="@+id/radioRoman"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textStyle="bold"
+                 android:textColor="#55AA33"
+                 android:text="Roman English - NEW!" />
+        
+        </RadioGroup>
+        
+        <TextView
+            android:id="@+id/TxtContribute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contribute"
+            android:paddingTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_info_heading" />
+        
+        <TextView
+            android:id="@+id/tv_info_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="If you have any suggestions or if you can contribute to the app in any way, we would really appriciate your help. Visit our Facebook Page to see how you can help." />
+
+        <EditText
+            android:id="@+id/tvComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:inputType="textMultiLine" >
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnSubmitComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Feedback to Developers"
+            android:layout_gravity="center" />
+        
+        
+        <TextView
+            android:id="@+id/tv_info_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About This App"
+            android:textColor="@color/blue_info_heading"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_info_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Iqbal Demystified App helps the young generation to fully understand the work of Allama Iqbal. The purpose of this app is to facilitate students who are unable to benefit from Iqbal's work because of the difficult terms used or lack of knowledge about the context of the poems.\n\nUsers can contribute to this app in several ways including but not limited to writing poem introductions, providing audios for poems and adding more references to difficult words. We are always open to suggestions and comments and are looking for other effective techniques that can facilitate learning about our lost heritage." />
+        
+        
+         <ImageView
+            android:id="@+id/BtnOurFacebookPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/facebook_link" />
+
+        <TextView
+            android:id="@+id/tv_info_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you a developer?"
+            android:textColor="@color/blue_info_heading"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/tv_info_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="We recenty open-sourced our repositories and codebase in an attempt to involve the community to help us with this project. If you are interested in working on a new feature for the app, please contact us.\n\nFurthermore, we need people to develop an iOS app and a web-client with similar functionality as this app. Following are the 3 GitHub repositories for this project. Please get involved!"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/BtnGithubAndroidApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/github"
+                android:layout_weight="10"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_info_7_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iqbal Android App"
+                android:textColor="@color/blue_info_heading"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:layout_weight="2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/BtnGithubDataset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:scaleType="fitCenter"
+                android:src="@drawable/github"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_info_7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iqbal Dataset"
+                android:textColor="@color/blue_info_heading"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/BtnGithubWebClient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/github"
+                android:layout_weight="10"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tv_info_7_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iqbal Web Client"
+                android:textColor="@color/blue_info_heading"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/BtnInfoSher"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/info_sher"
+            android:paddingTop="10dp"
+            android:layout_weight="10"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_info_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created By"
+            android:textColor="@color/blue_info_heading"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:id="@+id/tv_info_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="International Iqbal Society"
+            android:textStyle="bold"
+            android:textColor="@color/blue_info_heading"
+            android:textSize="22dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_info_10_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="{ { Developers } }"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"  />
+
+        <TextView
+            android:id="@+id/tv_info_10_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Azeem Ghumman"
+            android:textSize="17dp"
+            android:layout_gravity="center"  />
+        
+         <TextView
+            android:id="@+id/tv_info_10_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faizan Khan"
+            android:textSize="17dp"
+            android:layout_gravity="center"  />
+
+            <ImageButton
+                android:id="@+id/BtnIqbalWebsite1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iqbal_com_pk"
+                android:layout_gravity="center"
+                android:layout_weight="1" />
+            
+            <TextView
+                android:id="@+id/tv_info_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="International Iqbal Society"
+                android:textStyle="italic" />
+            
+             <TextView
+                android:id="@+id/tv_info_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Formerly DISNA)"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:textStyle="italic" />
+             
+	             <TextView
+	            android:id="@+id/tv_info_13"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Special Thanks"
+	            android:textColor="@color/blue_info_heading"
+	            android:textSize="20dp"
+	            android:textStyle="bold"
+	            android:layout_gravity="center"
+	            android:paddingTop="10dp" />
+
+            <ImageButton
+                android:id="@+id/BtnIqbalWebsite2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iap"
+                android:layout_gravity="center"
+                android:textStyle="italic"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_info_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iqbal Academy Pakistan"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingBottom="10dp"
+                android:textStyle="italic" />
+
+        <TextView
+	            android:id="@+id/tv_info_version_heading"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Version"
+	            android:textColor="@color/blue_info_heading"
+	            android:textSize="20dp"
+	            android:textStyle="bold"
+	            android:layout_gravity="center"/>
+        
+        
+        <TextView
+                android:id="@+id/tv_info_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Version: 3.0.1"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingBottom="20dp"
+                android:textStyle="italic" />
+        
+
+    </LinearLayout>
+    
+         </ScrollView>   
+
+</FrameLayout>
+

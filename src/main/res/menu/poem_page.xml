@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vanity.iqbal.PoemPage" >
+    
+    <item
+        android:id="@+id/action_zoom_in"
+        android:orderInCategory="100"
+        android:title="@string/action_zoom_in"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_zoom_out"
+        android:orderInCategory="100"
+        android:title="@string/action_zoom_out"
+        app:showAsAction="never"/>
+
+	<item
+        android:id="@+id/action_navigate_to_settings_page"
+        android:orderInCategory="100"
+        android:title="@string/action_navigate_to_settings_page"
+        app:showAsAction="never"/>
+
+</menu>

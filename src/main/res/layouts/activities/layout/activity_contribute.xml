@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vanity.iqbal.activities.ActivityContribute"
+    tools:ignore="MergeRootFrame" >
+    
+    <ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Your Contribution!"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_info_heading" />
+
+        <TextView
+            android:id="@+id/tv_info_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="If you have any suggestions, feel free to share with us. We would really appriciate your help. Visit our Facebook Page to see how you can help this project." />
+
+        <EditText
+            android:id="@+id/tvCommentsContribution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="#0000BB"
+            android:text=""
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:inputType="textMultiLine" >
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#008800"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Note:\nIf your introduction is selected, it will be included in the next update of the app and you will be given credit for that introduction. \n\nIt will also be featured on our Facebook Page!" />
+
+        <Button
+            android:id="@+id/btnSubmitCommentsContribution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/blue_info_heading"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+        
+    </LinearLayout>
+    
+         </ScrollView>   
+
+</FrameLayout>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Iqbal Demystified</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_zoom_in">Zoom In</string>
+    <string name="action_zoom_out">Zoom Out</string>
+    <string name="action_navigate_to_settings_page">Settings..</string>
+    <string name="action_view_downloads">Manage Downloads</string>
+    <string name="action_share">Share!</string>
+
+    <!--  Style for Sign In and Sign Up Buttons -->
+    <style name="DefaultButtonText">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+
+    </style>
+
+    <string name="str_forgot_password"><u>I Forgot My Password!</u></string>
+
+
+    <!--  Color Variables  -->
+    <color name="white">#FFFFFF</color>
+    <color name="sky_blue">#B0E2FF</color>
+    <color name = "academy_gray_color">#666666</color>
+    <color name="blue_info_heading">#303088</color>
+
+
+    <!--  Spinner: Select Discussion or Word Meaning to see the leaderboard -->
+
+    <string name="spinner_leaderboard_heading">Choose a Category</string>
+
+    <string-array name="spinner_leaderboard_options">
+        <item>Discussion</item>
+        <item>Word Meanings</item>
+    </string-array>
+
+
+</resources>

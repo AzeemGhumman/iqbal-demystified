@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/BtnBook_Persian_Javed_Nama_9"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/book_javed_nama_persian_9" />
+
+        <ImageView
+            android:id="@+id/BtnBook_Persian_Asrar_Ae_Khudi_5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/book_asrar_ae_khudi_persian_5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="20dp" >
+     </LinearLayout>
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+
+         <ImageView
+             android:id="@+id/BtnBook_Persian_Armaghan_Ae_Hijaz_11"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:src="@drawable/book_armaghan_ae_hijaz_persian_11" />
+
+         <ImageView
+             android:id="@+id/BtnBook_Persian_Payam_Ae_Mashriq_7"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:src="@drawable/book_payam_ae_hijaz_persian_7" />
+
+    	</LinearLayout>
+</LinearLayout>

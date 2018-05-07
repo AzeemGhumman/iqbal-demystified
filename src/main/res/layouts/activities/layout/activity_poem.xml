@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vanity.iqbal.PoemPage"
+    tools:ignore="MergeRootFrame" >
+    
+        <RelativeLayout
+            android:id="@+id/layoutPoemText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <ExpandableListView
+                    android:id="@+id/lvExp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:groupIndicator="@null"
+                    android:cacheColorHint="#00000000"/>
+
+            <fragment
+                android:name="com.vanity.iqbal.fragments.FragmentAudioPlayer"
+                android:id="@+id/fragmentAudio"
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_height="87dp" />
+
+         </RelativeLayout>
+
+</FrameLayout>
+

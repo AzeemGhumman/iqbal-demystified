@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+	<LinearLayout
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+		<TextView android:id="@+id/tvDiscussTalkSher"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:ellipsize="marquee"
+			android:text="Sher Goes Here"
+            android:textAlignment="center"
+			android:fadingEdge="horizontal" />
+
+        <fragment
+            android:name="com.vanity.iqbal.fragments.FragmentChat"
+            android:id="@+id/fragmentDiscussionComments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+	</ScrollView>

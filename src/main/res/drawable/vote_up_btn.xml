@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<!-- drawable/up_button.xml -->
+ 
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true" android:drawable="@drawable/entry_arrow_up_selected" /> <!-- pressed -->
+	<item android:state_focused="true" android:drawable="@drawable/entry_arrow_up_focused" /> <!-- focused -->
+	<item android:drawable="@drawable/entry_arrow_up" /> <!-- default -->
+</selector>
